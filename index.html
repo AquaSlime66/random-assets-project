@@ -4,88 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asset Portfolio | Home Page</title>
+    <link type="text/css" rel="stylesheet" href="styles/styles.css">
+    <link type="text/css" rel="stylesheet" href="styles/webfontkit-20240501-125947/stylesheet.css" charset="utf-8">
 </head>
 <body>
     <header>
-        <a href="index.html">Home Page</a>
-        <a href="page-76.html">Fallout 76 Items</a>
-        <a href="page-actual">Collected Items</a>
-        <a href="site-plan.html">Original Site Plan</a>
-        <img src="logo2.png" alt="">
-<!--might need to move into a div?-->
+        <a href="index.html" class="header-tag">Home Page</a>
+        <a href="page-76.html" class="header-tag">Fallout 76 Items</a>
+        <a href="page-actual.html" class="header-tag">Collected Items</a>
+        <a href="site-plan.html" class="header-tag">Site Plan</a>
+        <div id="logo-box">
+            <img src="images/logo-v2.png" alt="assets logo" class="main-logo">
+        </div>
     </header>
 
-    <div id="top-title">
-<!--when refering to this items in CSS use one that targets h1 in top-title, 
-do not target individually-->
-        <h1>Asset Portfolio Description</h1>
-        <p>
-            Welcome wanderers, from near, familiar places, hubs of great trade to the far 
-            inhospitable depths of the Wasteland. This site is set up to display several items 
-            I've gathered throughout the years. These trinkets and oddities originate anywhere form
-            the most mundane locations, to strange and foreign lands. Some of these items
-            have uncountable values, relics of a lost age, others sold and bartered
-            for entire empires, and some, well some aren't exactly abounding in value, 
-            but are just plain interesting.
-        </p>
-<!--the tab for these paragraphs should be referenced in the CSS-->
-<!--maybe use the background webmp file OR the books pile for the background of this monitor?-->
-        <p>
-            Some of these items come from various trips and travels I've been on with 
-            family members and friends. Some of them are digital items, mostly from the
-            video game Fallout 76 (I'm not one of those NFT 'people'). Some people are willing
-            to spend ridiculous amounts of money on digital weapons, cosmetics, or random 
-            other oddities. 
-        </p>
+    <div id="top-1">
+        <div id="top-title">
+        <!--when refering to this items in CSS use one that targets h1 in top-title, 
+        do not target individually-->
+            <h1>Asset Portfolio</h1>
+            <p>
+                Welcome wanderers, from near, familiar places, hubs of great trade to the far 
+                inhospitable depths of the Wasteland. This site is set up to display several items 
+                I've gathered throughout the years. These trinkets and oddities originate anywhere form
+                the most mundane locations, to strange and foreign lands. Some of these items
+                have uncountable values, relics of a lost age, others sold and bartered
+                for entire empires, and some, well some aren't exactly abounding in value, 
+                but are just plain interesting.
+            </p>
+        <!--the tab for these paragraphs should be referenced in the CSS-->
+        <!--maybe use the background webmp file OR the books pile for the background of this monitor?-->
+            <p>
+                Some of these items come from various trips and travels I've been on with 
+                family members and friends. Some of them are digital items, mostly from the
+                video game Fallout 76 (I'm not one of those NFT 'people'). Some people are willing
+                to spend ridiculous amounts of money on digital weapons, cosmetics, or random 
+                other oddities. 
+            </p>
+        </div>
     </div>
 
-    <img src="images/aftermath.webp" alt="">
-    <!--add a container for the images-->
-    <h2>Aftermath Analyst (Magic Card)</h2>
-    <ul>
-        <li>Paid Price: $1.50</li>
-        <li>Value: ~ $2</li>
-    </ul>
+    <div id="home-test-display-images">
+        <div id="home-display-1">
+            <img src="images/fixer-square-crop.png" alt="Fallout's The Fixer (good)">
+        </div>
 
-    <img src="images/fixer.webp" alt="">
-    <h2>Anti-Armor Fixer (Fallout 76 Item)</h2>
-    <ul>
-        <li>Paid Price: $0 (25,000 c)</li>
-        <li>Value: ~ $10 (70,000 c)</li>
-    </ul>
+        <div id="home-display-2">
+            <img src="images/aftermath-cropped.png" alt="Aftermath Analyst Magic Card">
+        </div>
 
+        <div id="home-text-display1">
+            <h2>Anti-Armor Fixer (Fallout 76 Item)</h2>
+            <ul>
+                <li>Paid Price: $0 (25,000 c)</li>
+                <li>Value: ~ $10 (70,000 c)</li>
+            </ul>
+        </div>
+
+        <div id="home-text-display2">
+            <h2>Aftermath Analyst (Magic Card)</h2>
+            <ul>
+                <li>Paid Price: $1.50</li>
+                <li>Value: ~ $2</li>
+            </ul>
+        </div>
+
+    </div>
+
+   
     <div class="monitor-box">
-        <p>
+        <p class="monitor-pa">
             These are just a few items I've gathered from various corners of
-            the globe. Each item will have it's respective original price, whether
-            that price was a foreign currency, or a digital one. 
-            It will also list its place of orgin, and personal meaning, if one exists.
+            the globe (and wasteland). Each item will have it's respective original price, whether
+            that price was a foreign currency, or a digital one, its place of orgin, and personal meaning, if one exists.
+            Some items also may have their Date of Purchase, but most of these dates aren't quite
+            accurate, and possible means of currently obtaining similar items.
         </p>
     </div>
 
     <footer>
-        <h1>Social Media & Pricing Links</h1>
-        <a href="https://www.xbox.com/en-US/play/user/AquaSlime66">
-            <img src="images/xbox-logo.webp" alt="">
-        </a>
-        <a href="https://www.instagram.com/">
-            <img src="images/instagram-logo.svg" alt="">
-        </a>
-        <a href="https://www.tcgplayer.com/">
-            <img src="images/logo-tcg.png" alt="">
-        </a>
-        <a href="https://gameflip.com/">
-            <img src="images/logo-gameflip.png" alt="">
-        </a>
-        <a href="https://www.bricklink.com/v2/main.page">
-            <img src="images/logo-bricklink.png" alt="">
-        </a>
-        <a href="index.html">Home Page</a>
-        <a href="page-76.html">Fallout 76 Items</a>
-        <a href="page-actual">Collected Items</a>
-        <a href="site-plan.html">Original Site Plan</a>
-        <img src="logo2.png" alt="">
-        <p></p>
+
+        <h1 id="footer-title">Social Media & Pricing Links</h1>
+
+        <div id="footer-img-container">
+            <a href="https://www.xbox.com/en-US/play/user/AquaSlime66"  target="blank">
+                <img src="images/xbox-logo.webp" alt="Xbox Logo">
+            </a>
+            <a href="https://www.instagram.com/" target="blank">
+                <img src="images/instagram-logo.svg" alt="Instagram Logo">
+            </a>
+            <a href="https://www.tcgplayer.com/" target="blank">
+                <img src="images/logo-tcg.png" alt="TCG Player Logo">
+            </a>
+            <a href="https://gameflip.com/" target="blank">
+                <img src="images/logo-gameflip.png" alt="Gameflip Logo">
+            </a>
+            <a href="https://www.bricklink.com/v2/main.page" target="blank">
+                <img src="images/logo-bricklink.png" alt="Bricklink Logo">
+            </a>
+            <a href="index.html" target="blank">
+                <img src="images/logo-v2.png" alt="Portfolio Logo (computah thing)">
+            </a>
+        </div>
+<!--maybe make this container div into a grid?? each image displayed per the 150 rule
+and then the logo displayed much larger?-->
+
+        <a href="index.html" class="footer-tag">Home Page</a>
+        <a href="page-76.html" class="footer-tag">Fallout 76 Items</a>
+        <a href="page-actual.html" class="footer-tag">Collected Items</a>
+        <a href="site-plan.html" class="footer-tag">Site Plan</a>
+        
     </footer>
 
 </body>

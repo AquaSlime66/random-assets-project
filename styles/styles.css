@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jersey+20+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Fuzzy+Bubbles:wght@400;700&family=Gochi+Hand&family=Nanum+Brush+Script&display=swap');
+
+body {
+    background-color: #1e566a;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /*consider breaking the header into another div with everything except the logo, as a grid*/
+}
+
+.header-tag {
+    background-color: black;
+    color: #4ca061;
+    font-family: "Courier New";
+    font-weight: 800;
+    font-size: 1.2em;
+
+    text-align: center;
+    margin-top: 130px;
+    margin-right: 35px;
+    margin-left: 35px;
+    padding: 16px;
+
+    border-radius: 15px 15px 0 0;
+}
+
+.header-tag:hover, .footer-tag:hover {
+    color: #26ed58;
+    background-color: #466778;
+}
+
+.main-logo {
+    border: 5px solid #4ca061;
+    width: 60%;
+    border-radius: 25px;
+}
+
+#logo-box {
+    padding-top: 18px;
+    padding-bottom: 10px;
+    background-color: black;
+    border-radius: 25px 25px 0 0 ;
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 35px;
+    
+}
+
+
+
+#footer-title {
+    border: 10px solid black;
+    background-color: #315e3c;
+    color: #26ed58;
+    font-family: "Courier New", "Fuzzy Bubbles", "Nanum Brush Script";
+
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+    margin: 100px 60px -10px 750px;
+    text-align: center;
+}
+
+#footer-img-container {
+    background-color: #315e3c;
+    border: 15px solid black;
+    border-radius: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 50px;
+    margin: 0 25px 10px 25px;
+}
+
+footer img{
+    width: 150px;
+    border-radius: 15px;
+}
+
+
+.footer-tag {
+    background-color: black;
+    color: #4ca061;
+    font-family: "Courier New";
+    font-weight: 800;
+    font-size: 1.2em;
+
+    text-align: center;
+    margin-top: 3000px;
+    margin-right: 35px;
+    margin-left: 35px;
+    padding: 16px;
+
+    border-radius: 0 0 15px 15px;
+}
+
+
+
+/* #bd6420 rusty color */
+
+
+#top-1 {
+    padding: 45px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+#top-title {
+    background-color: #315e3c;
+    color: #26ed58;
+    margin: 0 auto;
+    padding: 40px 150px 40px;
+
+    border-radius: 25px;
+}
+
+#top-title p {
+    font-family: monofonto;
+    text-indent: 5em;
+    font-size: 1.15em;
+}
+
+#top-title h1 {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-family: "Courier New", "Fuzzy Bubbles", "Nanum Brush Script";
+    font-size: 2.8em;
+}
+
+
+
+#home-test-display-images {
+    padding-top: 100px;
+    display: grid;
+    
+    grid-template-columns: 60px 1fr 95px 1fr 60px;
+    grid-template-rows: 1fr .5fr;
+}
+
+#home-display-1 {
+    padding: 20px;
+    background-color: black;
+    grid-column: 2/3;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#home-display-2 {
+    grid-column: 4/5;
+
+    padding: 20px;
+    background-color: black;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#home-display-1 img, #home-display-2 img {
+    border: 10px solid #4ca061;
+    border-radius: 25px;
+
+    width: 80%; 
+}
+
+#home-text-display1 {
+    grid-column: 2/3;
+    grid-row: 2;
+    background-color: #315e3c;
+    text-align: center;
+
+    margin: 0px 50px;
+    border: 5px solid black;
+    border-radius: 0 0 20px 20px;
+}
+
+#home-text-display2 {
+    grid-column: 4/5;
+    grid-row: 2;
+    background-color: #315e3c;
+
+    margin: 0px 50px;
+    border: 5px solid black;
+    border-radius: 0 0 20px 20px;
+}
+
+#home-text-display1 h2, #home-text-display2 h2 {
+    text-align: center;
+    font-family: "Courier New", "Fuzzy Bubbles", "Nanum Brush Script";
+    color: #26ed58;
+    font-size: 1.4em;
+
+}
+
+#home-text-display1 li, #home-text-display2 li {
+    font-family: monofonto, "Cutive Mono", Helvetica, sans-serif;
+    color: #26ed58;
+    font-size: 1.3em;
+    text-align: left;
+
+}
+
+#home-text-display1 ul, #home-text-display2 ul {
+    list-style-position: inside;
+}
+
+.monitor-box {
+    margin: 0px 100px;
+    background-color: #315e3c;
+    border: 15px solid black;
+    border-radius: 20px;
+
+    font-family: monofonto, "Cutive Mono", Helvetica, sans-serif;
+    color: #26ed58;
+    font-size: 1.4em;
+}
+
+.monitor-pa {
+   padding: 20px 100px;
+}
+
