@@ -3,107 +3,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asset Portfolio | Fallout 76</title>
+    <title>Asset Portfolio | Fallout 76 Items</title>
+    <link type="text/css" rel="stylesheet" href="styles/styles.css">
+    <link type="text/css" rel="stylesheet" href="styles/webfontkit-20240501-125947/stylesheet.css">
 </head>
 <body>
     <header>
-        <a href="index.html">Home Page</a>
-        <a href="page-76.html">Fallout 76 Items</a>
-        <a href="page-actual">Collected Items</a>
-        <a href="site-plan.html">Original Site Plan</a>
-        <img src="logo2.png" alt="">
-<!--might need to move into a div?-->
+        <a href="index.html" class="header-tag">Home Page</a>
+        <a href="page-76.html" class="header-tag">Fallout 76 Items</a>
+        <a href="page-actual.html" class="header-tag">Collected Items</a>
+        <a href="site-plan.html" class="header-tag">Site Plan</a>
+        <div id="logo-box">
+            <img src="images/logo-v2.png" alt="assets logo" class="main-logo">
+        </div>
     </header>
 
-    <div id="top-title">
-<!--when refering to this items in CSS use one that targets h1 in top-title, 
-do not target individually-->
-        <h1>Fallout 76 Assets</h1>
-        <p>
-            Fallout 76 is the only multi-player Fallout game (at least 'playable'), and 
-            has a evergrowing playerbase. This growth in players means more customers, and 
-            like I said, people are more than willing to pay for some of these
-            items. Each game covers different parts and eras of the same universe,
-            a post-apocalyptic alternate version of out timeline, and the stories of
-            those that survive. One of the currencies used in this universe, is bottle
-            caps. Each bottle cap represents a cap full of water. Cap values will also be 
-            list for those that, like me, don't want to spend money on the game.
-        </p>
-<!--the tab for these paragraphs should be referenced in the CSS-->
-<!--maybe use the background webmp file OR the books pile for the background of this monitor?-->
+    <div id="top-1">
+        <div id="top-title">
+    <!--when refering to this items in CSS use one that targets h1 in top-title, 
+    do not target individually-->
+            <h1>Fallout 76 Assets</h1>
+            <p>
+                Fallout 76 is the only multi-player Fallout game (at least 'playable'), and 
+                has a evergrowing playerbase. This growth in players means more customers, and 
+                like I said, people are more than willing to pay for some of these
+                items. Each game covers different parts and eras of the same universe,
+                a post-apocalyptic alternate version of out timeline, and the stories of
+                those that survive. One of the currencies used in this universe, is bottle
+                caps. Each bottle cap represents a cap full of water. Cap values will also be 
+                listed for those that, like me, don't want to spend money on the game.
+            </p>
+    <!--the tab for these paragraphs should be referenced in the CSS-->
+    <!--maybe use the background webmp file OR the books pile for the background of this monitor?-->
+        </div>
     </div>
+
 
     <div class="fallout-box">
         <h1>Anti-Armor Fixer</h1>
-        <img src="images/fixer.webp" alt="">
-        <p>
-            The Fixer is a staple weapon of the wasteland. Medium ammo capacity,
-            rapid fire rate, cheap ammo, decent range and above all, insane crit speeds.
-            To translate that into English, it's a pretty good gun.
-        </p>
-        <ul>
-            <li>Weapon's Effects: +50% Armor Penetration, +50% Critical Damage, and -25% Action Point Cost</li>
-            <li>Date of Purchase (if any): Mid 2022</li>
-            <li>Acquisition Cost: Gift from a friend</li>
-            <li>Current Value: ~ $10 or 25,000 c (Gameflip)</li>
-            <li>Methods of Obtaining: Bought online, traded in-game, rolled in-game</li>
-        </ul>
-        <p>
-            Item's Future: Although the Fixer is a all-round great gun, it's signifcantly gone down
-            in value over the years. It won't likely go over $15 in the future, but might be worth a good trade. 
-            It was also a gift from a good friend, so I'm keeping it.
-        </p>
+        <div class="fallout-picture-box">
+            <img src="images/fixer.webp" alt="Fallout-76 Fixer">
+        </div>
+       
+        <div class="fallout-text-box">
+            
+            <p>
+                The Fixer is a staple of the West Virginian wasteland. Medium ammo capacity,
+                rapid fire rate, cheap ammo, decent range and above all, insane crit speeds.
+                To translate that into English, it's a pretty good gun.
+            </p>
+            <p class="fallout-text-divider">[===================================================================================]</p>
+            <ul>
+                <li>Weapon's Effects: +50% Armor Penetration, +50% Critical Damage, and -25% Action Point Cost</li>
+                <li>Date of Purchase (if any): Mid 2022</li>
+                <li>Acquisition Cost: Gift from a friend</li>
+                <li>Current Value: ~ $10 or 25,000 c (Gameflip)</li>
+                <li>Methods of Obtaining: Bought online, traded in-game, rolled in-game</li>
+            </ul>
+            <p class="fallout-text-divider">[===================================================================================]</p>
+            <p>
+                Item's Future: Although the Fixer is an all-round great gun, it's significantly gone down
+                in value over the years. It won't likely go over $15 in the future, but might be worth a good trade. 
+                It was also a gift from a good friend, so I'm keeping it.
+            </p>
+        </div>
     </div>
+
 
     <div class="fallout-box">
         <h1>Fasnacht Glowing Scorchbeast Mask</h1>
-        <img src="images/mask.webp" alt="">
-        <p>
-            Fasnacht is a real-live event that takes place in the small town of Helvetia, and 
-            Fallout 76's developers have made it a major staple of the game. Upon completion
+        <div class="fallout-picture-box">
+            <img src="images/mask.webp" alt="Fallout-76 Fixer">
+        </div>
+       
+        <div class="fallout-text-box">
+            
+            <p>
+                Fasnacht is a real-life event that takes place in the small town of Helvetia, and 
+            Fallout 76's developers have made it a major event of the game. Upon completion
             of the event, each participating player is given a mask, although at a very low chance, they can recieve
             a rare and cool looking mask. This is one of those, and although it offers no real-ingame
             advantages, it just looks cool, and it's rare.
-        </p>
-        <ul>
-            <li>Date of Purchase (if any): Febuary 2024</li>
-            <li>Acquisition Cost: Reward for completing Fasnacht</li>
-            <li>Current Value: ~ $30 or 80,000 c (Gameflip)</li>
-            <li>Methods of Obtaining: Bought online, traded in-game, recieved from the Fasnacht event</li>
-        </ul>
-        <p>
-            Item's Future: Fasnacht Masks are a volatile element of Fallout 76's market, sometimes skyrocketing
+            </p>
+            <p class="fallout-text-divider">[===================================================================================]</p>
+            <ul>
+                <li>Date of Purchase (if any): Febuary 2024</li>
+                <li>Acquisition Cost: Reward for completing Fasnacht</li>
+                <li>Current Value: ~ $30 or 80,000 c (Gameflip)</li>
+                <li>Methods of Obtaining: Bought online, traded in-game, recieved from the Fasnacht event</li>
+            </ul>
+            <p class="fallout-text-divider">[===================================================================================]</p>
+            <p>
+                Item's Future: Fasnacht Masks are a volatile element of Fallout 76's market, sometimes skyrocketing
             to insane prices ($150+) or settling at a healthy medium. This mask is likely to go down,
             so I may sell it soon, just to capatilize off of the current value, and the liklihood to decrease in the near future.
-        </p>
+            </p>
+        </div>
+    </div>
+
+    <div class="fallout-box">
+        <h1>Bloodied Drill</h1>
+        <div class="fallout-picture-box">
+            <img src="images/drill2.webp" alt="Fallout-76 Fixer">
+        </div>
+       
+        <div class="fallout-text-box">
+            
+            <p>
+                The drill is quite the interesting weapon. For years it was unable to recieve legendary effects (basically effects that severly enhance the weapon)
+                and still cannot be crafted to this day. Drills were horrible weapons for the majority of 76's history,
+                until automatic melee weapons got an much needed damage upgrade. These weapons are sort of like chainsaws, 
+                any automatic shredding weapons, items like that.
+                
+            </p>
+            <p class="fallout-text-divider">[===================================================================================]</p>
+            <ul>
+                <li>Weapon's Effects: Bloodied, +40% Power Attack Damage, +1 Strength</li>
+                <li>Date of Purchase (if any): August 2023</li>
+                <li>Acquisition Cost: Reward for killing Legendary creature</li>
+                <li>Current Value: ~ $6-15 or 25,000 c (Gameflip)</li>
+                <li>Methods of Obtaining: Bought online, traded in-game, rolled in-game</li>
+            </ul>
+            <p class="fallout-text-divider">[===================================================================================]</p>
+            <p>
+                I've looked through many trading groups, and as far as I've found, no one has this exact drill. It's got the 
+                best possible effects it can have, and I couldn't find an exact match to pricecheck it with. I personally will
+                keep it, as it's a really good sidearm (as much as a literal drill can be a weapon...) and just a stupid, but fun weapon.
+            </p>
+        </div>
     </div>
 
 
-    
+
 
     <footer>
-        <h1>Social Media & Pricing Links</h1>
-        <a href="https://www.xbox.com/en-US/play/user/AquaSlime66">
-            <img src="images/xbox-logo.webp" alt="">
-        </a>
-        <a href="https://www.instagram.com/">
-            <img src="images/instagram-logo.svg" alt="">
-        </a>
-        <a href="https://www.tcgplayer.com/">
-            <img src="images/logo-tcg.png" alt="">
-        </a>
-        <a href="https://gameflip.com/">
-            <img src="images/logo-gameflip.png" alt="">
-        </a>
-        <a href="https://www.bricklink.com/v2/main.page">
-            <img src="images/logo-bricklink.png" alt="">
-        </a>
-        <a href="index.html">Home Page</a>
-        <a href="page-76.html">Fallout 76 Items</a>
-        <a href="page-actual">Collected Items</a>
-        <a href="site-plan.html">Original Site Plan</a>
-        <img src="logo2.png" alt="">
-        <p></p>
+
+        <h1 id="footer-title">Social Media & Pricing Links</h1>
+
+        <div id="footer-img-container">
+            <a href="https://www.xbox.com/en-US/play/user/AquaSlime66"  target="blank">
+                <img src="images/xbox-logo.webp" alt="Xbox Logo">
+            </a>
+            <a href="https://www.instagram.com/" target="blank">
+                <img src="images/instagram-logo.svg" alt="Instagram Logo">
+            </a>
+            <a href="https://www.tcgplayer.com/" target="blank">
+                <img src="images/logo-tcg.png" alt="TCG Player Logo">
+            </a>
+            <a href="https://gameflip.com/" target="blank">
+                <img src="images/logo-gameflip.png" alt="Gameflip Logo">
+            </a>
+            <a href="https://www.bricklink.com/v2/main.page" target="blank">
+                <img src="images/logo-bricklink.png" alt="Bricklink Logo">
+            </a>
+            <a href="index.html" target="blank">
+                <img src="images/logo-v2.png" alt="Portfolio Logo (computah thing)">
+            </a>
+        </div>
+<!--maybe make this container div into a grid?? each image displayed per the 150 rule
+and then the logo displayed much larger?-->
+
+        <a href="index.html" class="footer-tag">Home Page</a>
+        <a href="page-76.html" class="footer-tag">Fallout 76 Items</a>
+        <a href="page-actual.html" class="footer-tag">Collected Items</a>
+        <a href="site-plan.html" class="footer-tag">Site Plan</a>
+        
     </footer>
 
 </body>
