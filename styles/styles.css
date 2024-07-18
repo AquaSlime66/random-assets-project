@@ -290,3 +290,121 @@ footer img{
     text-indent: 0;
 }
 
+
+
+/*page formatting exclusive to the subpage 2, the actual items page*/
+
+.item-box h1 {
+    border: 10px solid black;
+    background-color: #315e3c;
+    color: #26ed58;
+    font-family: "Courier New", "Fuzzy Bubbles", "Nanum Brush Script";
+
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+    margin: 10% 45% -10px 18.5%;
+    text-align: center;
+}
+
+.item-box {
+    color: #26ed58;
+    font-family: monofonto, "Cutive Mono", Helvetica, sans-serif;
+}
+
+.item-picture-box {
+    text-align: center;
+
+    margin: 0 180px 0 180px;
+    padding: 50px 0 50px 0;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.donalds-tent {
+    width: 60%;
+}
+
+.ackbars-chair {
+    width: 75%;
+}
+
+.item-picture-box img {
+    border: 10px solid #315e3c;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.item-text-box {
+    margin: -10px 250px -20px 250px;
+    background-color: #315e3c;
+    border: 10px solid black;
+    padding: 25px 50px;
+}
+
+.item-text-box p {
+    padding: 0;
+    margin: 0 auto;
+    font-size: 1.25em;
+    text-indent: 5em;
+}
+
+.item-text-box li {
+    color: #A5F57A;
+    font-size: 1em;
+    padding: 2.5px 0;
+    /*text-align: left;*/
+}
+
+.item-text-box ul {
+    margin: 0 0 0 45px;
+    text-align: left;
+
+}
+
+.item-text-box .item-text-divider {
+    padding: .8em 0;
+    text-indent: 0;
+}
+
+.item-text-2 {
+    text-align: center;
+
+    margin: 0 180px 0 180px;
+    padding: 50px 0 130px 0;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.item-text-3 {
+    /*display: inline;*/
+    /*grid-template-columns: 1fr 1fr;*/
+    margin: 20px;
+}
+
+.item-text-2 img {
+    border: 10px solid #315e3c;
+    border-radius: 25px;
+    float: left;
+    margin: 0 0 0 50px;
+    /*background-color: #315e3c;*/
+    /*border-radius: 25px;*/
+}
+
+.mcdonalds-res {
+    width: 500px;
+    
+}
+
+.item-text-2 .madine-2 {
+    width: 250px;
+    margin: 0 0 20px 160px;
+}
+
+.item-text-2 p {
+    font-size: 1.5em;
+    background-color: #315e3c;
+    border-radius: 25px;
+
+    padding: 25px;
+    margin: 0 50px 0 600px;
+}
